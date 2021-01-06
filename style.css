@@ -1,0 +1,19 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+body p{
+    font-family: 'Roboto', sans-serif;
+}
+.half-width{
+    width: 40%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    height: 700px;
+}
+h1{
+    font-size: 60px;
+}
