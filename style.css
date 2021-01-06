@@ -64,7 +64,7 @@ h2{
 }
  .work-inquiry{
      margin-top: 10%;
-    height: 100px;
+    height: 100%;
     width: 50%;
    
 }
@@ -72,13 +72,14 @@ h2{
     background-image: url("resources/images/work-inquiry.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    display: block;
+   
     margin-left: auto;
     margin-right: auto;
 }
 .half{
   
     width: 48%;
+    padding-top: 5%;
     text-align: center;
     float: left;
 }
