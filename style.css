@@ -1,5 +1,6 @@
 body{
     font-family: 'Bebas Neue', cursive;
+    color:  #363958;;
 }
 body p{
     font-family: 'Roboto', sans-serif;
@@ -7,13 +8,160 @@ body p{
 .half-width{
     width: 40%;
     float: left;
+    padding-left: 5%;
+    padding-top: 5%;
 }
 .half-width img{
     width: 100%;
+    
 }
-.top-banner{
+.half-width p{
+    color: gray;
+}
+.banner{
     height: 700px;
 }
+
 h1{
     font-size: 60px;
 }
+h2{
+    font-size: 50px;
+}
+
+.orange-highlighter{
+    color: #FF8367;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.text-center{
+    text-align: center;
+}
+.project-gallery{
+    width: 29%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    background-color: white;
+    border-radius: 10px;
+}
+.project-gallery img{
+    width: 100%;
+}
+.lightgray-background{
+    background-color: #E5E5E5;
+    padding-top: 1%;
+}
+.bottom-part{
+    border: 1px solid red;
+}
+ .work-inquiry{
+     margin-top: 10%;
+    height: 100px;
+    width: 50%;
+   
+}
+.work-inquiry{    
+    background-image: url("resources/images/work-inquiry.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.half{
+  
+    width: 48%;
+    text-align: center;
+    float: left;
+}
+.half button{
+    margin-top: 10%;
+}
+h3{
+    font-size: 30px;
+    color: gray;
+}
+h4{
+    font-size: 20px;
+}
+.footer-banner{
+    height: 300px;
+}
+.footer-icon{
+    height: 50px;
+    margin-left: 44%;
+    
+}
+.footer-icon img{
+    width: 100%;
+}
+.icon{
+    width: 5%;
+    margin: 1%;
+    float: left;
+    
+}
+
+#skills-area{
+    height: 400px;
+    margin-bottom: 2%;
+  }
+  #skills-area h1{
+    text-align: center;
+  }
+  #skills-area h3{
+    font-size: 30px;
+  }
+  .skills-area-manage{
+    margin-left: 10%;
+    margin-right: 10%;
+    
+  }
+  .skill-topic{
+    width: 28%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+  }
+  .single-skill{
+    box-shadow: 2px 2px 20px gray;
+    border-radius: 10px;
+  }
+  #html{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,tomato,white);
+    border-image-slice: 1;
+  }
+  #css{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,white);
+    border-image-slice: 1;
+  }
+  #javascript{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,darkviolet,white);
+    border-image-slice: 1;
+  }
+  #mongodb{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,yellow,white);
+    border-image-slice: 1;
+  }
+  #nodejs{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,red,white);
+    border-image-slice: 1;
+  }
+  #react{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,cyan,white);
+    border-image-slice: 1;
+  }
